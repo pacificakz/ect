@@ -20,6 +20,7 @@ Example:
 	Windows -> nslookup -type=mx example.com 8.8.8.8
 
 How to use:
+
 	Show SPF:
 	"Type a domain to check SPF record" - type a domain which you would like to check for SPF record
 	Example:
