@@ -1,8 +1,8 @@
 Email Security Check Tool is a tool that will help you to test your mail configuration, specifically SPF and DMARC.
 
 Definitions:
-	Sender Policy Framework (SPF) is an email validation protocol designed to detect and block email spoofing by providing a mechanism to allow receiving mail exchangers to verify that incoming mail from a domain comes from an IP Address authorized by that domain's administrators.
-	Domain-based Message Authentication, Reporting and Conformance (DMARC) is an email-validation system designed to detect and prevent email spoofing. It is intended to combat certain techniques often used in phishing and email spam, such as emails with forged sender addresses that appear to originate from legitimate organizations.
+* Sender Policy Framework (SPF) is an email validation protocol designed to detect and block email spoofing by providing a mechanism to allow receiving mail exchangers to verify that incoming mail from a domain comes from an IP Address authorized by that domain's administrators.
+* Domain-based Message Authentication, Reporting and Conformance (DMARC) is an email-validation system designed to detect and prevent email spoofing. It is intended to combat certain techniques often used in phishing and email spam, such as emails with forged sender addresses that appear to originate from legitimate organizations.
 
 Supported platforms:
 	Linux
@@ -16,8 +16,8 @@ ECT has four options:
 
 ECT automatically finds mx records for desired domain
 Example:
-	Linux -> host -t mx example.com 8.8.8.8
-	Windows -> nslookup -type=mx example.com 8.8.8.8
+* Linux -> host -t mx example.com 8.8.8.8
+* Windows -> nslookup -type=mx example.com 8.8.8.8
 
 How to use:
 
